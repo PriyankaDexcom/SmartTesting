@@ -1,6 +1,8 @@
 name: pullRequest
 
-on: [push]  
+on:
+  pull_request:
+    types: [ opened, edited, reopened, ready_for_review, unlocked, synchronize ]
 
 jobs:
   d1-test-cases-testrail:
