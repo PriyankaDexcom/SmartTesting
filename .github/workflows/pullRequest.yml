@@ -1,0 +1,11 @@
+name: pullRequest
+
+on: [push]  
+
+jobs:
+  d1-test-cases-testrail:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
