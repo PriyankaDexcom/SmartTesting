@@ -2,7 +2,7 @@ name: pullRequest
 
 on:
   pull_request:
-    types: [ opened, edited, reopened, ready_for_review, unlocked, synchronize ]
+    types: [ opened, edited, reopened, ready_for_review, unlocked]
 
 jobs:
   d1-test-cases-testrail:
