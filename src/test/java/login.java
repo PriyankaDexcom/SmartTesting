@@ -5,6 +5,8 @@ public class login {
         System.out.println("Enter Username");
         System.out.println("Enter Password");
         System.out.println("Click Submit");
-        System.out.println("************");
+        if(true){
+            System.out.println("************");
+        }
     }
 }
