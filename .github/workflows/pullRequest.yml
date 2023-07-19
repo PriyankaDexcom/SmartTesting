@@ -12,3 +12,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - run: echo Hello Priyanka
+      
+      - name: Run Checkstyle
+        run: ./gradlew checkstyleMain checkstyleTest
